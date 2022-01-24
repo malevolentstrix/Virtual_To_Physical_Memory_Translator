@@ -94,7 +94,7 @@ int main(int argc, char *argv[])
 			tlb[qp][0] = page_no;
 			tlb[qp][1] = i;
 			qp++;
-			qp = qp % 15;
+			qp = qp % 16;
 		}
 
 		printf("VIRTUAL ADDRESS = %d \t\t", logicalad);
