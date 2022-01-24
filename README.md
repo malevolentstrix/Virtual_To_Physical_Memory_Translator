@@ -1,6 +1,6 @@
-# VIRTUAL-MEMORY-MANAGER
+# VIRTUAL-TO-PHYSICAL-MEMORY-TRANSLATOR
   
-## Designing a Virtual Memory Manager  
+## Designing a Virtual Memory Translator  
 ### OS PROJECT FOR 3RD SEMESTER  
 The goal of this project is to develop the application that converts logical addresses to physical addresses for a virtual address space of 216 = 65,536 bytes. The implementation will read logical addresses from a file, translate each logical address to its matching physical address using a TLB and a page table, then output the value of the byte stored at the translated physical location. This project's purpose is to emulate the stages involved in converting logical addresses to physical addresses.
 #### SPECIFICS  
